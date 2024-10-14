@@ -23,7 +23,7 @@ Route::post('/cadastro', [EventController::class, 'storelog']);
 
 Route::get('/cadastraproduto', [EventController::class, 'cadastraproduto']);
 Route::post('/cadastraproduto', [EventController::class, 'store']);
-Route::delete('/cadastraproduto', [EventController::class, 'destroy']);
+
 
 
 

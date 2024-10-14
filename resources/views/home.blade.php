@@ -17,7 +17,6 @@
           <tr>
             <th scope="col">Produtos</th>
             <th scope="col">Descrição</th>
-            <th scope="col">Excluir</th>
           </tr>
          </thead>
 
@@ -27,12 +26,6 @@
         <tr>
             <td> {{$produto -> name}} </td>
             <td> {{$produto -> descricao}}</td>
-
-           <form action="/cadastraproduto/{{$produto->id}}" method="POST"> 
-            @csrf
-            @method('DELETE')
-              <td> <button type="submit" class="btn btn-danger">deleta</a></td>
-           </form>
         </tr>
     @endforeach       
       </tbody>     

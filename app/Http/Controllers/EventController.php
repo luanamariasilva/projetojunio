@@ -75,11 +75,5 @@ class EventController extends Controller
         return redirect('/home');
 }
 
-   public function destroy($id){
-     Produto::findOrFail($id)->delete();
-
-     return redirect('/home')->whith('msg','Produto excluido com sucesso!');
-
-   } 
 
 }

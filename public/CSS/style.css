@@ -1,0 +1,91 @@
+
+ 
+body{
+    background-color: rgb(247, 250, 252);
+}
+#image{
+    width: 100%;
+    height: 6rem;
+    background-size: auto;
+    text-align: center;
+    padding-left: 0%;  
+  
+}
+
+#bnt{
+ padding: 0rem;
+}
+
+/*footer*/
+#rodape{
+    padding-top: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    text-align: center;
+}
+
+/* EStilo da fonte do carde do login*/
+.card-header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18pt;
+}
+
+.mb-3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14pt;
+
+}
+
+.card{
+    width: 50rem;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 3rem;
+}
+
+#font_cadastro{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-top: 2rem;
+    border-top: 5px solid  rgb(233, 231, 231);
+}
+
+#cont_cadastro{
+    border-bottom: 5px solid  rgb(201, 198, 198);
+    border-radius: 3rem ;
+    width: 50rem;
+    height: 25rem;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 3rem; 
+}
+
+#cont_cadastrprduto{
+    border-bottom: 5px solid  rgb(201, 198, 198);
+    border-radius: 3rem ;
+    width: 50rem;
+    height: 37rem;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 3rem; 
+}
+
+hr{
+    border-bottom: 5px solid  rgb(201, 198, 198);
+    color:rgb(201, 198, 198);
+}
+#pg_home{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid  rgb(233, 231, 231);
+    border-top: 1px;
+  
+}
+
+div#conte_home{
+    border: 2px solid  rgb(233, 231, 231);
+    border-right: 1px;
+
+}

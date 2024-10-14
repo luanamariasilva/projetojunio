@@ -31,7 +31,7 @@
                     </fieldset>
 
                     </div>
-                <button type="submit" class="btn btn-primary">Entrar</button>
+                <a  href="/home" class="btn btn-primary">Entrar</a>
                 <a href="/cadastro" class="btn btn-danger">Cadastrar</a>
             </div>
             </form>

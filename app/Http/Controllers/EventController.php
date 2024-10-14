@@ -49,7 +49,7 @@ class EventController extends Controller
         return redirect('/home');
     }
 
-    public function storelogalt (Request $request){
+    /* public function storelogalt (Request $request){
 
     $validatedData = $request->validate([
         'email' => 'required|email|unique:users,email' // Verifica se o email já existe na tabela 'users'
@@ -59,7 +59,7 @@ class EventController extends Controller
     
 
     return redirect('/')->back()->with('success', 'Usuário cadastrado com sucesso.');
-}
+} */
 
       
 
@@ -74,5 +74,12 @@ class EventController extends Controller
 
         return redirect('/home');
 }
+
+   public function destroy($id){
+     Produto::findOrFail($id)->delete();
+
+     return redirect('/home')->whith('msg','Produto excluido com sucesso!');
+
+   } 
 
 }
